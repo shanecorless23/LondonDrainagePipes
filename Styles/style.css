@@ -1,0 +1,70 @@
+.img-col {
+  height: 250px; /* Adjust this value to your desired height */
+  width: 100%;
+  object-fit: cover;
+}
+.hdr1 {
+  background-image: url("../images/BLOCKED\ DRAINS\ -\ HEADER.12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 130px 1120px; /* Add padding to create space for the content */
+  color: white; /* Set text color to white for better visibility */
+
+  margin: 0 auto;
+}
+header nav {
+  padding: 10px 0;
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+  color: black; /* Set the desired text color */
+}
+.navbar {
+  background-color: #007bff; /* Change to your desired background color */
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+  color: white; /* Set text color to white */
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+  color: white; /* Set text color to white */
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+@media only screen and (max-width: 955px) {
+  .hdr1 {
+    display: none;
+    height: auto;
+    background-image: url("../images/resized\ Header.png");
+  }
+}
+
+.fixed-price {
+  margin-top: 30px;
+  font-size: 26px;
+}
+.contact-link {
+  font-size: 18px; /* Adjust the font size as needed */
+  border: 2px solid #333; /* Add a border with desired style and color */
+  display: inline-block;
+  padding: 5px 10px; /* Add padding for better appearance */
+  text-decoration: none; /* Remove underlines from the links */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.contact-link:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
