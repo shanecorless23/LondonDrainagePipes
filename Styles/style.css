@@ -68,3 +68,14 @@ header nav {
   background-color: #333; /* Change background color on hover */
   color: #fff; /* Change text color on hover */
 }
+.coverage {
+  height: 300px;
+  width: 340px;
+}
+.btn-contact {
+  margin-top: 10px;
+  width: 200px;
+}
+.container {
+  margin-top: 20px;
+}
